@@ -6,6 +6,15 @@ This is my zsh configuration, it's mainly focused on developer exprerience but a
  - [Eza](https://github.com/eza-community/eza) - ls replacement
  - [FastFetch](https://github.com/fastfetch-cli/fastfetch) - NeoFetch-like tool but fast
 
+## Instalation
+Run: 
+``` bash
+    git clone https://github.com/PolskiGlizda/zsh-config.git ~/.config/zsh
+    touch ~/.zshenv
+    echo "ZDOTDIR=~/.config/zsh" > ~/.zshenv
+```
+
+
 ## Aliases
 1. ls = eza -lA - Replacing ls with eza
 2. c = clear && fastfetch - Clears the screen and generate fastfetch output
